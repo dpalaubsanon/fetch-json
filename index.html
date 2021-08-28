@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sonnet Exam</title>
+
+	<!--====== Bootstrap v5.0.2 css ======-->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+	<!--====== Style css ======-->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!--====== Mobile css ======-->
+	<link rel="stylesheet" href="assets/css/mobile.css">
+	
+</head>
+<body>
+	<header id="header-area" class="header-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<a class="navigation-bar-logo" href="#">
+						<img src="assets/branding/dzp-logo.png" alt="Logo">
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="container">
+			<section id="products-sort" class="products-sort">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 products-text">
+						<h3>Products</h3>
+						<p>7 Items</p>
+					</div>
+					<div class="col-lg-6 col-md-6 right sort-filter">
+						<select name="sort" id="sort">
+							<option value="none" selected disabled hidden> 
+								Sort by
+							</option>
+							<option value="lowtohigh">Price: Low to High</option>
+							<option value="hightolow">Price: High to Low</option>
+						</select>
+						<select name="filter" id="filter">
+							<option value="none" selected disabled hidden>
+								Filter By Size
+							</option>
+							<option value="test">Small</option>
+							<option value="test">Medium</option>
+							<option value="test">Large</option>
+							<option value="test">Extra Large</option>
+						</select>
+					</div>
+				</div>
+			</section>
+			<section id="products" class="products">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="row product-list">
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<!--====== Bootstrap v5.0.2 js ======-->
+	<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!--====== Main JS======-->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>

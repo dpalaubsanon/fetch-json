@@ -1,0 +1,12 @@
+@media only screen and (max-width: 500px) {
+  #header-area .navigation-bar-logo img {
+    display: block;
+    margin: auto;
+  }
+  #products-sort .products-text{
+    text-align: center;
+  }
+  #products-sort .sort-filter{
+    text-align: center;
+  }
+}
